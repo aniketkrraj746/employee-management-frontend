@@ -127,7 +127,7 @@ const HomePage = () => {
                           <div className="text-sm text-gray-900 dark:text-white">
                             {person.title}
                           </div>
-                          <button className="rounded-md bg-red-600 px-3.5 py-1.5 text-sm font-semibold leading-7 text-white hover:bg-indigo-500 ">delete</button>
+                          {/* <button className="rounded-md bg-red-600 px-3.5 py-1.5 text-sm font-semibold leading-7 text-white hover:bg-indigo-500 ">delete</button> */}
                           <div className="text-sm text-gray-500 dark:text-gray-300">
                             {person.department}
                           </div>
