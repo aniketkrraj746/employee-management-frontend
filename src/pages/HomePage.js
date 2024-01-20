@@ -28,7 +28,7 @@ const HomePage = () => {
   const getAllData = async () => {
     try {
       const getPeople = await fetch(
-        `${process.env.REACT_APP_BASE_URL}/ getallUsers`,
+        `${process.env.REACT_APP_BASE_URL}/getallUsers`,
         {
           method: "GET",
           headers: {
