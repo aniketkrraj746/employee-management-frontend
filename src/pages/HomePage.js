@@ -127,6 +127,7 @@ const HomePage = () => {
                           <div className="text-sm text-gray-900 dark:text-white">
                             {person.title}
                           </div>
+                          <button>delete</button>
                           <div className="text-sm text-gray-500 dark:text-gray-300">
                             {person.department}
                           </div>
