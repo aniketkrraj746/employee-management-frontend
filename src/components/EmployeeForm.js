@@ -10,6 +10,7 @@ const EmployeeForm = () => {
     const savedUserResponse = await fetch(
       `${process.env.REACT_APP_BASE_URL}/createUser`,
       {
+        mode:"cors",
         method: "POST",
         headers: {
           "Content-Type": "application/json",
